@@ -8,6 +8,6 @@ if __name__ == "__main__":
 			print(" [?] cara menggunakan : ")
 			exit(" [!] ketik : python run.py remove")
 	try:
-		__import__("zmenc").ngewe().menu()
+		__import__("dmbf").cek()
 	except Exception as e:
 		exit(str(e))
